@@ -1,3 +1,15 @@
+--ESP Toggle	Ctrl + R	Highlights other players in green and shows distance in studs.
+--Spectator GUI Toggle	Ctrl + V	Opens/closes GUI for spectating other players.
+--Spectator Navigation	GUI Buttons	"Previous," "Next," and "Stop" allow switching view targets or exiting.
+--Object Deletion	Shift + Left Click	Deletes clicked object with visual red outline.
+--Restore Deleted Objects	Shift + U	Reloads and restores objects removed via Shift+Click.
+--Clear All Outlines	K	Removes all red selection outlines.
+--Teleport to Mouse Position	Ctrl + Left Click	Instantly moves player to cursor (depends on teleport mode).
+--Teleport Mode Toggle	Ctrl + T	Enables or disables teleportation function.
+--Select Teleport Mode	Ctrl + 1 / Ctrl + 2	FlyTeleport (1) or LagTeleport (2).
+--Simulate Ragdoll	Ctrl + 3	Temporarily disables controls for fling effect.
+
+
 local ESPEnabled = false
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
